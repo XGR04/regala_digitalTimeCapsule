@@ -1,0 +1,56 @@
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+.like-item {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.like-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.like-item p {
+    margin: 15px 0;
+}
+
+.like-item a {
+    display: inline-block;
+    background-color: #0779e4;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.like-item a:hover {
+    background-color: #0056b3;
+}
