@@ -1,3 +1,12 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -31,7 +40,7 @@ nav ul li a:hover {
 }
 
 .activity-item img {
-    max-width: 100%;
+    width: 200px;
     height: auto;
     border-radius: 8px;
 }
