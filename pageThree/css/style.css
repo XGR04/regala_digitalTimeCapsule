@@ -89,3 +89,36 @@ nav a:hover, nav a:focus {
 .activity-item a:hover {
     background-color: #0056b3;
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2a91b6; 
+    color: #fff;
+    border-top: 5px solid #0779e4;
+}
+
+footer a {
+    margin: 0 15px; 
+    display: inline-block;
+    border-radius: 50%; 
+    overflow: hidden; 
+    line-height: 0; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+footer img {
+    width: 30px; 
+    height: auto; 
+    transition: transform 0.3s ease; 
+}
+
+footer a:hover, footer a:focus {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+footer a:hover img, footer a:focus img {
+    transform: scale(1.1); 
+}
