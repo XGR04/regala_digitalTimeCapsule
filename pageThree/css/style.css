@@ -66,29 +66,72 @@ nav a:hover, nav a:focus {
     text-align: center;
 }
 
-.activity-item img {
-    width: 200px;
-    height: auto;
-    border-radius: 8px;
+.activity-item-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: flex-start;
 }
 
-.activity-item p {
-    margin: 15px 0;
+.activity-item-content.reverse {
+    flex-direction: row-reverse;
+}
+
+.activity-item-images, .activity-item-text {
+    flex: 1;
+    padding: 10px;
+}
+
+.activity-item-text {
+    text-align: left;
 }
 
 .activity-item a {
     display: inline-block;
-    background-color: #0779e4;
-    color: #fff;
-    padding: 10px 15px;
-    border-radius: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    overflow: hidden;
+    line-height: 0;
     text-decoration: none;
-    transition: background-color 0.3s;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.activity-item a:hover {
-    background-color: #0056b3;
+.activity-item img {
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: 5px;
+    border-radius: 8px;
+    transition: opacity 0.3s ease;
 }
+
+.activity-item a:hover, .activity-item a:focus {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.activity-item a:hover img, .activity-item a:focus img {
+    opacity: 0.9;
+}
+
+.activity-item p {
+    margin: 15px 0;
+    color: #000;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.spotify-song {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+.spotify-song h2 {
+    margin-bottom: 10px; 
+}
+
 
 footer {
     text-align: center;
