@@ -123,22 +123,37 @@ nav a:hover, nav a:focus {
     border-radius: 8px;
 }
 
-.spotify-song {
-    text-align: center; 
-    margin: 20px 0; 
+.tiktok {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.spotify-song h2 {
-    margin-bottom: 10px; 
+.tiktok-info {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
 }
 
+.tiktok-videos {
+    display: flex;
+    overflow-x: auto; 
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.tiktok-embed {
+    flex: 0 0 auto; 
+    width: 150px;
+    max-width: none;
+}
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #2a91b6; 
+    background-color: #40dba2; 
     color: #fff;
-    border-top: 5px solid #0779e4;
+    border-top: 5px solid #84e592;
 }
 
 footer a {
