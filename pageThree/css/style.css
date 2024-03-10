@@ -58,7 +58,7 @@ nav a:hover, nav a:focus {
     color: #2f2634;
 }
 
-.activity-item {
+.instagram {
     background-color: #fff;
     padding: 20px;
     margin-bottom: 20px;
@@ -66,27 +66,20 @@ nav a:hover, nav a:focus {
     text-align: center;
 }
 
-.activity-item-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
-    align-items: flex-start;
+.instagram div {
+    margin-bottom: 20px;
 }
 
-.activity-item-content.reverse {
-    flex-direction: row-reverse;
+.instagram p {
+    margin: 15px 0;
+    color: #000;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
 }
 
-.activity-item-images, .activity-item-text {
-    flex: 1;
-    padding: 10px;
-}
-
-.activity-item-text {
-    text-align: left;
-}
-
-.activity-item a {
+.instagram a {
     display: inline-block;
     margin: 5px;
     border-radius: 8px;
@@ -97,30 +90,22 @@ nav a:hover, nav a:focus {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.activity-item img {
+.instagram img {
     display: block;
-    width: 100px;
+    width: 200px;
     height: auto;
     margin: 5px;
     border-radius: 8px;
     transition: opacity 0.3s ease;
 }
 
-.activity-item a:hover, .activity-item a:focus {
+.instagram a:hover, .instagram a:focus {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-.activity-item a:hover img, .activity-item a:focus img {
+.instagram a:hover img, .instagram a:focus img {
     opacity: 0.9;
-}
-
-.activity-item p {
-    margin: 15px 0;
-    color: #000;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
 }
 
 .tiktok-section {
@@ -146,6 +131,58 @@ nav a:hover, nav a:focus {
     flex: 0 0 auto; 
     width: 150px;
     max-width: none;
+}
+
+.onlineShops {
+    text-align: center; 
+    padding: 20px;
+    background-color: #f8f8f8; 
+    border-radius: 10px; 
+    margin: 20px 0; 
+}
+
+.onlineShops h2 {
+    color: #333; 
+    margin-bottom: 16px; 
+    font-size: 2em; 
+}
+
+.online-text p {
+    color: #555;
+    font-size: 1.1em; 
+    margin-bottom: 24px; 
+    padding: 0 15%; 
+    line-height: 1.6; 
+}
+
+.online-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); 
+    gap: 10px; 
+    padding: 0 15%; 
+}
+
+
+.online-images a {
+    border-radius: 8px; 
+    overflow: hidden; 
+    display: inline-block; 
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+.online-images img {
+    width: 100%; 
+    height: auto; 
+    transition: transform 0.3s ease; 
+}
+
+.online-images a:hover, .online-images a:focus {
+    opacity: 0.8; 
+    transform: scale(1.03); 
+}
+
+.online-images a:hover img, .online-images a:focus img {
+    transform: scale(1.03); 
 }
 
 footer {
