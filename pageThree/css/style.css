@@ -9,7 +9,7 @@ body {
 }
 
 main {
-    padding: 15px;
+    padding: 15px 100px;
 }
 
 p {
@@ -18,6 +18,23 @@ p {
     text-align: justify;
     margin: 20px 0;
     padding: 0 10px;
+    text-align: center;
+    color: #3f1277;
+
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    color: #3f1277;
+    margin-bottom: 24px; 
+    padding: 0 15%; 
+    line-height: 1.6; 
+    font-family: 'Silkscreen', sans-serif;
+    text-align: center;
 }
 
 header {
@@ -31,10 +48,6 @@ header {
     text-align: center;
     background-attachment: fixed;
     font-family: 'Silkscreen', sans-serif;
-}
-
-h1 {
-    font-size: 50px;
 }
 
 nav {
@@ -79,15 +92,6 @@ nav a:hover, nav a:focus {
     margin-bottom: 20px;
 }
 
-.instagram p {
-    margin: 15px 0;
-    color: #000;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
-}
-
 .instagram a {
     display: inline-block;
     margin: 5px;
@@ -123,12 +127,6 @@ nav a:hover, nav a:focus {
     gap: 20px;
 }
 
-.tiktok-info {
-    background-color: #f7f7f7;
-    padding: 20px;
-    border-radius: 8px;
-}
-
 .tiktok-videos {
     display: flex;
     overflow-x: auto; 
@@ -145,23 +143,8 @@ nav a:hover, nav a:focus {
 .onlineShops {
     text-align: center; 
     padding: 20px;
-    background-color: #f8f8f8; 
     border-radius: 10px; 
     margin: 20px 0; 
-}
-
-.onlineShops h2 {
-    color: #333; 
-    margin-bottom: 16px; 
-    font-size: 2em; 
-}
-
-.online-text p {
-    color: #555;
-    font-size: 1.1em; 
-    margin-bottom: 24px; 
-    padding: 0 15%; 
-    line-height: 1.6; 
 }
 
 .online-images {
