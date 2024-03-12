@@ -1,30 +1,33 @@
 body {
-    font-family: 'Comfortaa';
+    font-family: 'Quicksand', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #061267; /* Example solid color, adjust as needed */
+    background: #ffdd98;
     color: #1a1277;
+    font-weight: 600;
 }
-
 
 main {
     padding: 15px;
 }
 
 header {
-    background: linear-gradient(#00000080, #00000080), url('depositphotos_54722365-stock-illustration-filigree-pattern-with-vintage-ornament.jpg');
+    background: url('CbHZx4eUUAAp1g5.png');   
     background-size: cover;
     background-position: center;
     color: #fff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #ded1b9 5px solid;
+    border-bottom: #e6945a 5px solid;
     text-align: center;
     background-attachment: fixed;
+    font-family: 'Silkscreen', sans-serif;
 }
 
-
+h1 {
+    font-size: 50px;
+}
 
 h2 {
     text-align: center;
@@ -48,24 +51,24 @@ nav a {
     margin: 0 15px;
     padding: 10px 20px;
     text-decoration: none;
-    color: #fff;
+    color: #ffdd98;
     font-weight: bold;
-    background: #061167;
+    background: #e37c33;
     border-radius: 15px; 
     transition: all 0.3s ease; 
 }
 
 nav a:hover, nav a:focus {
-    color: #ded1b9;
+    color: #fff;
     transform: scale(1.15);
-    background: #061267;
+    background: #e6945a;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3); 
     cursor: pointer;
 }
 
 .highlight {
     transform: scale(1.25);
-    color: #ffdd98;
+    color: #fff;
 }
 
 #bio {
@@ -99,8 +102,8 @@ nav a:hover, nav a:focus {
 footer {
     text-align: center;
     padding: 20px;
-    border-top: 5px solid #ded1b9;
-    background: linear-gradient(#00000080, #00000080), url('depositphotos_54722365-stock-illustration-filigree-pattern-with-vintage-ornament.jpg');
+    border-top: 5px solid #e6945a;
+    background: url('CbHZx4eUUAAp1g5.png');   
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -116,7 +119,7 @@ footer a {
     border-radius: 50%; 
     overflow: hidden; 
     line-height: 0; 
-    box-shadow: 0 2px 5px #fff; 
+    box-shadow: 0 2px 5px #e6945a; 
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
@@ -128,7 +131,7 @@ footer img {
 
 footer a:hover, footer a:focus {
     transform: translateY(-5px); 
-    box-shadow: 0 4px 8px #fff;
+    box-shadow: 0 4px 8px #e6945a;
 }
 
 footer a:hover img, footer a:focus img {
