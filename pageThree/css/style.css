@@ -1,12 +1,12 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #061267;
-    color: #1a1277;
+    background: #c3899c;
+    color: #3f1277;
+    font-weight: 600;
 }
-
 
 main {
     padding: 15px;
@@ -21,17 +21,21 @@ p {
 }
 
 header {
-    background: url('exceptrea-gamerroom-1-revisioned-0.gif');
+    background: linear-gradient(rgba(65, 35, 85, 0.35), rgba(65, 35, 85, 0.35)), url('exceptrea-gamerroom-1-revisioned-0.gif');
     background-size: cover;
     background-position: center;
     color: #fff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #ded1b9 5px solid;
+    border-bottom: #efdf74 5px solid;
     text-align: center;
     background-attachment: fixed;
+    font-family: 'Silkscreen', sans-serif;
 }
 
+h1 {
+    font-size: 50px;
+}
 
 nav {
     text-align: center;
@@ -45,7 +49,7 @@ nav a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-    background: #061167;
+    background: #a9253d;
     border-radius: 15px; 
     transition: all 0.3s ease; 
 }
@@ -193,7 +197,7 @@ nav a:hover, nav a:focus {
 footer {
     text-align: center;
     padding: 20px;
-    border-top: 5px solid #ded1b9;
+    border-top: 5px solid #efdf74;
     background: url('exceptrea-gamerroom-1-revisioned-0.gif');
     background-size: cover;
     background-position: center;
